@@ -11,3 +11,5 @@ function Random(props) {
 }
 
 export default Random;
+
+/* Great job! */

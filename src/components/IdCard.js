@@ -1,22 +1,25 @@
-function IdCard(props) {
+/* Remeber react components should be built in jsx files */
+
+function IdCard({picture, firstName, lastName, gender, height, birth}) {
+  /* Start destructuring props, so that the code is easier to read. */
   return (
     <div className="idCard">
-      <img src={props.picture} alt="personPicture" />
+      <img src={picture} alt="personPicture" />
       <div className="personalInfo">
         <strong>first Name: </strong>
-        {props.firstName}
+        {firstName}
         <br />
         <strong>last Name: </strong>
-        {props.lastName}
+        {lastName}
         <br />
         <strong> Gender: </strong>
-        {props.gender}
+        {gender}
         <br />
         <strong>Height: </strong>
-        {props.height}
+        {height}
         <br />
         <strong>Birth: </strong>
-        {props.birth.toString()}
+        {birth.toString()}
         <br />
       </div>
     </div>

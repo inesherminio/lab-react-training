@@ -26,3 +26,5 @@ function Greetings(props) {
 }
 
 export default Greetings;
+
+/* Great job! */

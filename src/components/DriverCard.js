@@ -8,6 +8,7 @@ function DriverCard(props) {
       <div className="driverContent">
         <h2>{props.name}</h2>
         <p>{props.rating < 4.9 ? '★★★★☆' : '★★★★★'}</p>
+        {/* You could reuse the Rating component here */}
         <p>
           {props.car.model} {props.car.licensePlate}
         </p>
