@@ -1,38 +1,77 @@
-.App {
+.idCard {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.idCard img {
+  width: 180px;
+}
+
+.greetings,
+.random {
+  border: 1px solid black;
+  display: flex;
+  font-size: 2rem;
+  margin: 0.5em 0.2em;
+}
+
+.color {
+  border: 1px solid black;
+  color: white;
+  height: 5vh;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.creditCard {
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.driverCard {
+  background-color: #0051ff;
+  color: white;
+  width: 800px;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  line-height: 0.5;
+  object-fit: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.driverCard img {
+  width: 100px;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.likeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin: 5em 0;
+}
+
+.likeButton button {
+  margin-right: 1em;
+  padding: 1em;
+  background-color: #0051ff;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
+}
+
+.likeButton button:active {
+  background-color: #000000;
+  color: #fff;
 }
