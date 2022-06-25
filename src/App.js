@@ -4,6 +4,8 @@ import IdList from './components/IdList';
 import Greetings from './components/Greetings';
 import Random from './components/Random';
 
+/* Overall, well done. Try to go through iterations 4 to 7 as well, they work pretty much the same. */
+
 function App() {
   return <div className="App">
 

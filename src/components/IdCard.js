@@ -1,3 +1,5 @@
+/* Keep in mind that components should be placed in a jsx file, not a js one */
+
 function IdCard(props) {
   return (
     <div className="idCard">
